@@ -87,18 +87,15 @@ Paste the following:
 On your code replace the "$BITBUCKET_VARIABLE" and "$GITHUB_VARIABLE" with your corresponding variable names while keeping the   $ and the "" sign. 
 
 Bitbucket repository path: ![Image](https://github.com/user-attachments/assets/facaab48-8362-4dac-91f3-a4431fba43fe)
-GitHub repository path: ![image](https://github.com/user-attachments/assets/d77133d0-6788-4387-a530-4d3411ccb34c)
+GitHub repository path: ![Image](https://github.com/user-attachments/assets/4242e71c-0250-4e8c-b5de-081bbc14a481)
+GitHub repository name: ![Image](https://github.com/user-attachments/assets/a209f5d2-5b37-459e-bf63-460604448628)
 
-GitHub repository name: ![image](https://github.com/user-attachments/assets/6da16431-d1a6-4c93-b43a-b8866f4a9f80)
-
-![image](https://github.com/user-attachments/assets/b5dd5073-f17c-48c2-bee2-bfe626463d79)
-
+![Image](https://github.com/user-attachments/assets/aaf4168f-1b4f-4527-bd66-d6eec1869a6d)
 
 ## Running the pipeline in Bitbucket
 
 
-![image](https://github.com/user-attachments/assets/43f9beec-b59e-4e30-805a-e19a64470b7c)
-
+![Image](https://github.com/user-attachments/assets/23fff02f-6291-413a-a1a2-6ad3cc3cfc00)
 ## Now check your GitHub repository and see that the bitbucket-pipelines.yml was automatically added!
 
 ![image](https://github.com/user-attachments/assets/8a498d1b-01c8-4c7e-8594-db7937ccdfd1)
