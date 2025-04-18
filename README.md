@@ -14,7 +14,7 @@ Mirror and synchronizing GitHub &amp; Bitbucket
       Make sure to save it somewhere because you can view it just once.
        Copy the last Access token
     
-    ![image](https://github.com/user-attachments/assets/ea78ac0d-ff84-4721-b7fc-053baf90474c)
+    ![Image](https://github.com/user-attachments/assets/5b292206-43d0-471c-8f6d-a8c6fa5b2018)
 
     
       Navigate To Github and Import the Repository while keeping the same name
