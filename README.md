@@ -1,6 +1,15 @@
-# Bitbucket_GitHub_sync
-Mirror and synchronizing GitHub &amp; Bitbucket
-# Bitbucket to GitHub Repository Synchronization
+# Bitbucket_GitHub_sync  
+
+## **Prerequisites**  
+Before starting, ensure you have:  
+- A Bitbucket repository with admin access  
+- A GitHub account with repository creation permissions  
+- SSH and Git installed on your local machine  
+- Basic knowledge of CI/CD pipelines  
+
+---
+
+## Project Visualization:
 
 ![WhatsApp Image 2025-04-16 at 04 35 29_b29e7417](https://github.com/user-attachments/assets/c987d035-ae0c-4a5b-b7fd-186e591556af)
 
@@ -98,4 +107,4 @@ GitHub repository name: ![Image](https://github.com/user-attachments/assets/a209
 ![Image](https://github.com/user-attachments/assets/23fff02f-6291-413a-a1a2-6ad3cc3cfc00)
 ## Now check your GitHub repository and see that the bitbucket-pipelines.yml was automatically added!
 
-![image](https://github.com/user-attachments/assets/8a498d1b-01c8-4c7e-8594-db7937ccdfd1)
+![Image](https://github.com/user-attachments/assets/7fc5821b-0e48-4d51-a410-108f4dfe8aee)
