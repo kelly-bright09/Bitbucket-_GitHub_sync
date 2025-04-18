@@ -35,43 +35,38 @@ Mirror and synchronizing GitHub &amp; Bitbucket
   - On Bitbucket, Create an access tokens under Repository settings > Security > Access tokens. Create Repository Access Token with  selecting all the "READ" 
     Permissions and tick the 'Read and write checkbox under Webhooks
 
-    ![image](https://github.com/user-attachments/assets/1f251d7c-13c8-47f2-ba2d-99b99203bd34)
+    ![WhatsApp Image 2025-04-18 at 01 30 55_de834d30](https://github.com/user-attachments/assets/7d8f0a0c-a82c-4d6c-a8ce-8b10ad330f6f)
 
   - Copy the first Token
     
-   ![image](https://github.com/user-attachments/assets/9b92c3d8-cedb-4b98-9e80-2ded6d3d9906)
+  ![Image](https://github.com/user-attachments/assets/135b4e16-ad15-4439-89bf-3e756f88536d)
 
 
   - On Bitbucket, Create a Repository variable under Repository Settings > Pipeline > Repository variable. You can name it " BITBUCKET_VARIABLE"
   - The value will be the access token you just created in the previous step  
     
-    ![image](https://github.com/user-attachments/assets/e337347f-bbe3-4b10-a205-2f1ebedb76ce)
-
+  ![Image](https://github.com/user-attachments/assets/d60b029d-c923-4f96-88ea-d71868e72b69)
   - On Github, At the top right click on your Profile, Scroll down at the bottom click on settings
     
-    ![Screen Shot 2024-01-04 at 00 45 35](https://github.com/asaphdanchi/Mirror-and-synchronizing/assets/112729006/68a20ce1-ad1e-44cb-8b84-1729dbc8b212)
-    
+
   - At the bottom left of the page click Developer Settings, Create a Personal access tokens Under Personal access tokens > Token (classic) > Generate new token > 
     Generate new token (classic)
     
-    ![image](https://github.com/user-attachments/assets/cb3d4f45-8a70-4071-a8de-f73e4c74a4d4)
+   ![Image](https://github.com/user-attachments/assets/34a6e55b-bcc9-4c92-8b27-78ed257d8b4e)
     
   - Check the "repo" box, "Workflow" and the "write:package" box.
    
-    ![image](https://github.com/user-attachments/assets/9402d692-d5f4-4f4c-a888-ee3d3ebf0349)
-
+  ![Image](https://github.com/user-attachments/assets/d19a51cb-beee-4d07-90a9-585854f75e0e)
   -  Scroll down and click Genarate Token and copy the token
 
   - On Bitbucket, Create a Repository variables with the Personal Access Token from Github as the value. Repository Settings > Pipeline > Repository variable. You 
     can name it "GITHUB_VARIABLE".
 
-    ![image](https://github.com/user-attachments/assets/1d593157-6f11-4fee-b420-530d43563b64)
-
+   ![Image](https://github.com/user-attachments/assets/b0253da0-8f4f-4ae9-8d45-7e414255d6b5)
 
 ## Creating a bitbucket-pipelines.yml file
 
-![image](https://github.com/user-attachments/assets/7e4d2ec0-7868-4dee-9458-26c53c574c39)
-
+![Image](https://github.com/user-attachments/assets/0284fe56-d914-46f1-98e3-000e1daa3588)
 
 Paste the following:
 
@@ -91,8 +86,7 @@ Paste the following:
 
 On your code replace the "$BITBUCKET_VARIABLE" and "$GITHUB_VARIABLE" with your corresponding variable names while keeping the   $ and the "" sign. 
 
-Bitbucket repository path: ![image](https://github.com/user-attachments/assets/cef151e9-b43e-43c0-932d-b433d4862f8b)
-
+Bitbucket repository path: ![Image](https://github.com/user-attachments/assets/facaab48-8362-4dac-91f3-a4431fba43fe)
 GitHub repository path: ![image](https://github.com/user-attachments/assets/d77133d0-6788-4387-a530-4d3411ccb34c)
 
 GitHub repository name: ![image](https://github.com/user-attachments/assets/6da16431-d1a6-4c93-b43a-b8866f4a9f80)
