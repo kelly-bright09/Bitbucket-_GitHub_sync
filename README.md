@@ -31,8 +31,7 @@ Mirror and synchronizing GitHub &amp; Bitbucket
     
   - On Bitbucket, add the public key under Repository settings > Security > Access keys > Add key
     
-    ![image](https://github.com/user-attachments/assets/c143e5a5-2ed8-40f9-abd4-fe7fffa9455f)
-
+    ![Image](https://github.com/user-attachments/assets/bfe01d08-cce7-4468-91ab-1e7dc17700e4)
   - On Bitbucket, Create an access tokens under Repository settings > Security > Access tokens. Create Repository Access Token with  selecting all the "READ" 
     Permissions and tick the 'Read and write checkbox under Webhooks
 
